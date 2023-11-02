@@ -1,0 +1,32 @@
+name: ivfm
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cudatoolkit=11.0.221=h6bb024c_0
+  - numpy-base=1.19.2=py37hfa32c7d_0
+  - pip=20.3.3=py37h06a4308_0
+  - python=3.7.9=h7579374_0
+  - pytorch=1.7.1=py3.7_cuda11.0.221_cudnn8.0.5_0
+  - torchaudio=0.7.2=py37
+  - torchvision=0.8.2=py37_cu110
+  - tk=8.6.10=hbc83047_0
+  - pip:
+    - imageio==2.9.0
+    - matplotlib==3.3.3
+    - numpy==1.19.4
+    - oauthlib==3.1.0
+    - opencv-python==4.4.0.46
+    - pillow==8.0.1
+    - pybullet==3.0.7
+    - pyyaml==5.3.1
+    - scikit-image==0.18.0
+    - scikit-learn==0.24.0
+    - scipy==1.5.4
+    - shapely==1.7.1
+    - tensorboard==2.4.0
+    - tensorboard-plugin-wit==1.7.0
+    - tqdm==4.54.1
+    - munch
+    - prompt_toolkit
+    - munkres
