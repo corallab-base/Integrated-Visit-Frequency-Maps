@@ -34,7 +34,7 @@ python enjoy.py --config-path config/opt-sam-opt/config.yml
 
 ## Training in the Simulation Environment
 
-The [`config`](config) directory contains template config files for all experiments in the paper. To start a training run, you can give one of the template config files to the `train.py` script. For example, the following will train an IVFM policy with one agent on a regular sized arena:
+The [`config`](config) directory contains template config files for all experiments in the paper. To start a training run, you can give one of the template config files to the `train.py` script. For example, the following will train an I-VFM policy with one agent on a regular sized arena:
 
 ```
 python train.py config/opt-sam-opt.yml
